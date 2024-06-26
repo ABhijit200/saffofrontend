@@ -7,7 +7,8 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url(../assets/Sinn.gif);
+    background-color: rgb(109,139,199);
+    
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;

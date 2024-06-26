@@ -7,8 +7,7 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-image: url(../assets/Sinn.gif);
-    background-repeat: no-repeat;
+    background-image:url('../assets/forget.jpg');
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -27,12 +26,15 @@ body {
   }
   
   .form-box {
-    background-color: #ffffff; 
+    /* background-color: #ffffff;  */
     padding: 25px 35px;
     border-radius: 20px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); 
+    box-shadow: 0 8px 16px rgba(240, 240, 240, 0.3); 
     width: 100%;
     max-width: 350px;
+    background:transparent;
+    border: 1px solid  black;
+ 
 }
   
   .imgcontainer {
@@ -63,11 +65,13 @@ body {
   .input-field {
     display: flex;
     align-items: center;
-    border: 1px solid #ccc;
+    border: 1px solid #535353;
     border-radius: 18px;
     padding: 5px 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
     border: 1px solid transparent;
+    background-color: rgba(255, 255, 255,0.3);
+   
   }
 
   .input-field:hover {
@@ -88,7 +92,7 @@ body {
   }
   
   .input-field input::placeholder {
-    color: #aaa;
+    color: #444444;
   }
   
   .form-container {
